@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senpai's Hideaway</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-header">
+            <div class="logo">Senpai's Hideaway</div>
+            <div class="language-switcher">
+                <a href="#" onclick="changeLanguage('jp')">JP</a>
+                <a href="#" onclick="changeLanguage('en')">EN</a>
+                <a href="#" onclick="changeLanguage('ru')">RU</a>
+                <a href="#" onclick="changeLanguage('zh')">ZH</a>
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1 data-translate="hero_title">Обзоры игр для взрослых</h1>
+            <p data-translate="hero_description">Погрузитесь в мир игр для взрослых с нашими глубокими и подробными обзорами. Присоединяйтесь к нашему сообществу и откройте для себя лучшие игры.</p>
+            <div class="social-icons">
+                <a href="https://store.steampowered.com/curator/45286183/" target="_blank"><i class="fab fa-steam"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="advantages">
+        <h2 data-translate="advantages_title">Почему Мы?</h2>
+        <div class="advantages-grid">
+            <div class="advantage">
+                <i class="fas fa-search"></i>
+                <h3 data-translate="advantage_1_title">Глубокий Анализ</h3>
+                <p data-translate="advantage_1_description">Мы тщательно анализируем каждую игру, раскрывая все ее особенности и нюансы.</p>
+            </div>
+            <div class="advantage">
+                <i class="fas fa-users"></i>
+                <h3 data-translate="advantage_2_title">Сообщество</h3>
+                <p data-translate="advantage_2_description">Присоединяйтесь к нашему сообществу для обсуждений, рекомендаций и совместных игр.</p>
+            </div>
+            <div class="advantage">
+                <i class="fas fa-star"></i>
+                <h3 data-translate="advantage_3_title">Высокие Стандарты</h3>
+                <p data-translate="advantage_3_description">Мы придерживаемся высоких стандартов качества в наших обзорах и контенте.</p>
+            </div>
+            <div class="advantage">
+                <i class="fas fa-headset"></i>
+                <h3 data-translate="advantage_4_title">Поддержка</h3>
+                <p data-translate="advantage_4_description">Всегда готовы помочь и ответить на ваши вопросы, обеспечивая лучший опыт для вас.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 data-translate="contact_title">Контакты</h2>
+        <div class="contact-content">
+            <div class="steam-group">
+                <h3 data-translate="steam_group_title">Наша группа в Steam</h3>
+                <a href="https://store.steampowered.com/curator/45286183/" class="steam-button" target="_blank" data-translate="steam_button">Перейти</a>
+            </div>
+            <div class="other-contacts">
+                <h3 data-translate= "other_contacts_title">Другие способы связи</h3>
+                <div class="contact-icons">
+                    <a href="mailto:lewdhideaway@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-reviewer">
+        <h2 data-translate="about_reviewer_title">О Рецензенте</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p data-translate="about_reviewer_description_1">Привет! Я любитель игр для взрослых с большим опытом в этом жанре. Моя миссия - помочь вам найти лучшие игры и погрузиться в увлекательные истории.</p>
+                <p data-translate="about_reviewer_description_2">Моя мотивация - делиться любовью к этому уникальному жанру.</p>
+            </div>
+            <div class="about-image">
+                <img src="img/girl.png">
+            </div>
+        </div>
+    </section>
+
+     <section id="partners">
+        <h2 data-translate= "partners_title">Партнеры и Спонсоры</h2>
+        <div class="partners-content">
+            <p data-translate= "partners_description_1">В настоящее время мы открыты для сотрудничества и ищем партнеров и спонсоров, которые разделяют нашу страсть к визуальным новеллам и качественным обзорам.</p>
+            <p data-translate= "partners_description_2">Если вы издатель, разработчик или просто энтузиаст, желающий поддержать наш проект, мы будем рады обсудить возможности сотрудничества.</p>
+            <a href="https://steamcommunity.com/groups/LewdHideaway" class="partner-button" data-translate="partner_button">Стать Партнером</a>
+        </div>
+    </section>
+
+    <section id="faq">
+        <h2 data-translate="faq_title">Часто Задаваемые Вопросы</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question" data-translate="faq_question_1">
+                    Что такое игра для взрослых?
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer" data-translate="faq_answer_1">
+                    Игра для взрослых — это видеоигра, предназначенная для зрелой аудитории, которые содержат элементы эротики и сексуальные сцены.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" data-translate="faq_question_2">
+                    Как часто выходят новые обзоры?
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer" data-translate="faq_answer_2">
+                    Мы стараемся публиковать новые обзоры по возможности. Это может варьироваться в зависимости от длины игр и нашего рабочего графика.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" data-translate="faq_question_3">
+                    Как я могу предложить игру для обзора?
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer" data-translate="faq_answer_3">
+                    Вы можете предложить игру для обзора, отправив нам сообщение в наши социальные сети или на почту. Мы рассматриваем все предложения!
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p data-translate= "footer_text">&copy; 2024 Обзоры Новелл. Все права защищены.</p>
+    </footer>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+ <script src="lang.js"></script>
+ <script>
+    $(document).ready(function(){
+        $('.game-slider').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            arrows: false,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+
+        $('.faq-question').click(function() {
+            $(this).next('.faq-answer').slideToggle();
+            $(this).find('i').toggleClass('fa-chevron-down fa-chevron-up');
+        });
+    });
+</script>
+   
+</body>
+</html>
